@@ -55,7 +55,7 @@ public class ReservationPanelManagement extends JPanel {
                     Reservation reservation = reservationTableModel.getReservationAt(selectedRow);
                     showReservationDialog(reservation);
                 } else {
-                    JOptionPane.showMessageDialog(null, "Please select a reservation to edit.");
+                    JOptionPane.showMessageDialog(null, "Please select a Reservation to edit.");
                 }
             }
         });
